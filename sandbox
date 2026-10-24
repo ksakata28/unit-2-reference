@@ -1,9 +1,8 @@
 
-while True:
-
-    word = input("enter word: ")
-
-    if word == "quit":
-        break
-
-    print (word)
+number =1
+while number <= 10:
+    if number % 2 == 0:
+        number += 1
+        continue
+    print (number)
+    number += 1
